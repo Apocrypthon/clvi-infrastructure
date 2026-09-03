@@ -1,0 +1,9 @@
+{
+  "rangeStart": "2026-09-01T00:00:00.000Z",
+  "rangeEnd": "2026-09-02T00:00:00.000Z",
+  "entryCount": 1284,
+  "totalEstKwh": 42.7,
+  "chainOk": true,
+  "tokenCount": 3179442,
+  "signature": "6f1c2a9d4b83e75061cd2f8a4e19b7d3c05a6e8b2f74190d3ac6b5e82d17f094"
+}
