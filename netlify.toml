@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# The canonical Contracts v1 mocks are consumed cross-origin by clvi-frontend
+# and clvi-game-client, so they must be readable from any deploy preview.
+[[headers]]
+  for = "/mock/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=60"
